@@ -1,5 +1,5 @@
 # Back-propagation (Summer Course homework 1)
-It's only using **Numpy** packages to two-layer neural network.  
+It's only using **Numpy** packages to build two-layer neural network.  
 
 You can get some detailed introduction and experimental results in the link below.  
 https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Report.pdf
