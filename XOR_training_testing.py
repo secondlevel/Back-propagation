@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np 
 from generate_data import generator_linear,generator_XOR_easy
 import matplotlib.pyplot as plt
 import collections
