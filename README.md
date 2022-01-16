@@ -49,8 +49,8 @@ Epoch: 005980  Loss: 0.014075  Accuracy: 0.999000
 Epoch: 005990  Loss: 0.014052  Accuracy: 0.999000
 ```
 <p float="center">
-  <img src="Experiment Result/linear_classifier_training_curve.PNG" width="450" title="training curve" hspace="0" />
-  <img src="Experiment Result/linear_classifier_testing_result.PNG" width="450" title="testing result" hspace="20" />
+  <img src="Experiment Result/linear_classifier_training_curve.PNG" width="450" title="training curve" hspace="10" />
+  <img src="Experiment Result/linear_classifier_testing_result.PNG" width="450" title="testing result" hspace="30" />
 </p>
 
 
