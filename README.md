@@ -30,11 +30,19 @@ $ conda install pandas -y
 
 In this project, the training data and testing data can be generate by **generate_data.py** file.  
 
-This file contains two function.  
+This file contains two function.
+
+```python=
+input, label = generator_linear(1000)
+```
 
 - generator_linear function
   - input: coordinate data number
   - output: data coordinate, data label(blue point and red point)
+
+```python=
+input, label = generator_XOR_easy(11)
+```
 
 - generator_XOR_easy function
   - input: coordinate data number
