@@ -49,8 +49,8 @@ Epoch: 005980  Loss: 0.014075  Accuracy: 0.999000
 Epoch: 005990  Loss: 0.014052  Accuracy: 0.999000
 ```
 <p float="center">
-  <img src="Experiment Result/linear_classifier_training_curve.PNG" width="450" title="training curve" hspace="10" />
-  <img src="Experiment Result/linear_classifier_testing_result.PNG" width="450" title="testing result" hspace="30" />
+  <img src="Experiment Result/linear_classifier_training_curve.PNG" width="460" title="training curve" hspace="0" />
+  <img src="Experiment Result/linear_classifier_testing_result.PNG" width="460" title="testing result" hspace="20" />
 </p>
 
 
@@ -60,4 +60,27 @@ Epoch: 005990  Loss: 0.014052  Accuracy: 0.999000
 $ python XOR_training_testing.py
 ```
 
+You will get the following linear classifier result.
 
+```bash=
+Epoch: 005880  Loss: 0.005006  Accuracy: 1.000000
+Epoch: 005890  Loss: 0.004990  Accuracy: 1.000000
+Epoch: 005900  Loss: 0.004975  Accuracy: 1.000000
+Epoch: 005910  Loss: 0.004960  Accuracy: 1.000000
+Epoch: 005920  Loss: 0.004945  Accuracy: 1.000000
+Epoch: 005930  Loss: 0.004929  Accuracy: 1.000000
+Epoch: 005940  Loss: 0.004915  Accuracy: 1.000000
+Epoch: 005950  Loss: 0.004900  Accuracy: 1.000000
+Epoch: 005960  Loss: 0.004885  Accuracy: 1.000000
+Epoch: 005970  Loss: 0.004870  Accuracy: 1.000000
+Epoch: 005980  Loss: 0.004855  Accuracy: 1.000000
+Epoch: 005990  Loss: 0.004841  Accuracy: 1.000000
+```
+<p float="center">
+  <img src="Experiment Result/XOR_classifier_training_curve.PNG" width="460" title="training curve" hspace="0" />
+  <img src="Experiment Result/XOR_classifier_testing_result.PNG" width="460" title="testing result" hspace="20" />
+</p>
+
+##  Reference
+[Binary Crossentropy](https://zhuanlan.zhihu.com/p/89391305)  
+[Activation function](https://www.itread01.com/content/1546354994.html)  
