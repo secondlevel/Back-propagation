@@ -5,7 +5,7 @@ You can get some detailed introduction and experimental results in the link belo
 https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Report.pdf
 
 <p float="center">
-  <img src="https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Result/%E6%9E%B6%E6%A7%8B%E5%9C%96.PNG" title="Architecture" hspace="200" />
+  <img src="https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Result/%E6%9E%B6%E6%A7%8B%E5%9C%96.PNG" title="Architecture" width="500" hspace="250" />
 </p>
 
 ## Hardware
@@ -26,7 +26,13 @@ $ conda install matplotlib -y
 $ conda install pandas -y
 ```
 
-## Data description
+## System Architecture
+
+<p float="center">
+  <img src="Experiment Result/System_architecture.PNG" title="Architecture" width="600" hspace="200" />
+</p>
+
+## Data Description
 
 In this project, the training data and testing data can be generate by **generate_data.py** file.  
 
