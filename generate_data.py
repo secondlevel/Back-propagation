@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def generator_linear(n=100): 
+def generator_linear(n=100):
 
     pts = np.random.uniform(0, 1 , (n, 2))
     inputs, labels = [],[] 
@@ -45,5 +45,11 @@ def plot_data(inputs,labels):
         plt.show()
 
 # if __name__ =="__main__":
-#     # generator_linear(1000)
-#     generator_XOR_easy(11)
+
+#     a = generator_linear(1000)
+#     b = generator_XOR_easy(11)
+
+#     print("linear classifier input coordinate:", a[0].shape)
+#     print("linear classifier input label:", a[1].shape)
+#     print("XOR classifier input coordinate:", b[0].shape)
+#     print("XOR classifier input label:", b[1].shape)
