@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def generator_linear(n=100):
+def generator_linear(n=100): 
 
     pts = np.random.uniform(0, 1 , (n, 2))
     inputs, labels = [],[] 
