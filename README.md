@@ -5,7 +5,7 @@ You can get some detailed introduction and experimental results in the link belo
 https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Report.pdf
 
 <p float="center">
-  <img src="https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Result/%E6%9E%B6%E6%A7%8B%E5%9C%96.PNG" title="Architecture" hspace="200" />
+  <img src="https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Result/%E6%9E%B6%E6%A7%8B%E5%9C%96.PNG" title="Architecture" hspace="150" />
 </p>
 
 ## Hardware
