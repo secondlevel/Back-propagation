@@ -1,4 +1,4 @@
-import numpy as np 
+import numpy as np
 from generate_data import generator_linear,generator_XOR_easy
 import matplotlib.pyplot as plt
 import collections
@@ -236,15 +236,15 @@ if __name__ == "__main__":
 
     data_number = 22
 
-    x, y = generator_XOR_easy(data_number)
-    x = x.astype('float32')
-    y = y.astype('float32').reshape(data_number*2-1,)
-
     TwoLayerNet = [
     {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
     {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
     {"input_dim":10, "output_dim": 1, "activation": "sigmoid"},
     ]
+
+    x, y = generator_XOR_easy(data_number)
+    x = x.astype('float32')
+    y = y.astype('float32').reshape(data_number*2-1,)
 
     # plt.scatter(x[:,0],x[:,1],c = y,s=100,lw=0,cmap='coolwarm')
     # plt.show()
