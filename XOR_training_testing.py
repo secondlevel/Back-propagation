@@ -237,9 +237,9 @@ if __name__ == "__main__":
     data_number = 22
 
     TwoLayerNet = [
-    {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
-    {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
-    {"input_dim":10, "output_dim": 1, "activation": "sigmoid"},
+    {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},    #activation --> relu、sigmoid
+    {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},   #activation --> relu、sigmoid
+    {"input_dim":10, "output_dim": 1, "activation": "sigmoid"},     #activation --> relu、sigmoid
     ]
 
     x, y = generator_XOR_easy(data_number)
