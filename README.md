@@ -56,7 +56,15 @@ input, label = generator_XOR_easy(11)
 
 ## Training and Testing the Linear classifier Result.
 
-The first, you need to config the training parameters through **linear_classifier_parameters.json** file.  
+The first, you need to config the training parameters through **linear_classifier_parameters.json** file as following.
+
+```bash=
+[
+    {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
+    {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
+    {"input_dim": 10, "output_dim": 1, "activation": "sigmoid"}
+]
+```
 
 Then you can use the following instruction to training and testing the linear classifier.  
 
@@ -88,6 +96,14 @@ Epoch: 005990  Loss: 0.014052  Accuracy: 0.999000
 ## Training and Testing the XOR classifier Result.
 
 The first, you need to config the training parameters through **XOR_classifier_parameters.json** file.   
+
+```bash=
+[
+    {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
+    {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
+    {"input_dim": 10, "output_dim": 1, "activation": "sigmoid"}
+]
+```
 
 Then you can use the following instruction to training and testing the XOR classifier.  
 
