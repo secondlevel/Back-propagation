@@ -56,9 +56,9 @@ input, label = generator_XOR_easy(11)
 
 ## Training and Testing the Linear classifier Result.
 
-Before training and testing the results of linear classifier, you need to config the training parameters through **linear_classifier_parameters.json** file.  
+The first, you need to config the training parameters through **linear_classifier_parameters.json** file.  
 
-You can use the following instruction to training and testing the linear classifier.  
+Then you can use the following instruction to training and testing the linear classifier.  
 
 ```python=
 $ python linear_training_testing.py
@@ -87,9 +87,9 @@ Epoch: 005990  Loss: 0.014052  Accuracy: 0.999000
 
 ## Training and Testing the XOR classifier Result.
 
-Before training and testing the results of XOR classifier, you need to config the training parameters through **XOR_classifier_parameters.json** file.  
+The first, you need to config the training parameters through **XOR_classifier_parameters.json** file.   
 
-You can use the following instruction to training and testing the XOR classifier.  
+Then you can use the following instruction to training and testing the XOR classifier.  
 
 ```python=
 $ python XOR_training_testing.py
