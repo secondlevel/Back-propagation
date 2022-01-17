@@ -97,7 +97,7 @@ Epoch: 005990  Loss: 0.014052  Accuracy: 0.999000
 
 ## Training and Testing the XOR classifier Result.
 
-The first, you need to config the training parameters through **XOR_classifier_parameters.json** file.   
+The first, you need to config the training parameters through **XOR_training_testing.py** file.   
 
 ```bash=
 237     data_number = 22
