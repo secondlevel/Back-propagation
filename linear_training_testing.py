@@ -1,7 +1,8 @@
-import numpy as np 
+import numpy as np
 from generate_data import generator_linear,generator_XOR_easy
 import matplotlib.pyplot as plt
 import collections
+import json
 import pandas as pd
 
 def plot_training_result(X,Y,pred_label,epochs):
@@ -234,21 +235,18 @@ if __name__ == "__main__":
 
     data_number = 1000
 
+    TwoLayerNet = [
+        {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
+        {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
+        {"input_dim": 10, "output_dim": 1, "activation": "sigmoid"},
+    ]
+
     x, y = generator_linear(n = data_number)
     x = x.astype('float32')
     y = y.astype('float32').reshape(data_number,)
 
-    TwoLayerNet = [
-    {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
-    {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
-    {"input_dim": 10, "output_dim": 1, "activation": "sigmoid"},
-    ]
-
     # plt.scatter(x[:,0],x[:,1],c = y,s=100,lw=0,cmap='coolwarm')
     # plt.show()
-
-    # print(x.shape)
-    # print(y.shape)
 
     #training 
     params_values = train(np.transpose(x), np.transpose(y.reshape((y.shape[0], 1))), TwoLayerNet, 6000, 5e-1)
