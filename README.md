@@ -56,14 +56,16 @@ input, label = generator_XOR_easy(11)
 
 ## Training and Testing the Linear classifier Result.
 
-The first, you need to config the training parameters through **linear_classifier_parameters.json** file as following.
+The first, you need to config the training parameters through **linear_training_testing.py** file as following.
 
 ```bash=
-[
-    {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
-    {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
-    {"input_dim": 10, "output_dim": 1, "activation": "sigmoid"}
-]
+236     data_number = 1000
+237
+238     TwoLayerNet = [
+239          {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
+240          {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
+241          {"input_dim": 10, "output_dim": 1, "activation": "sigmoid"},
+242      ]
 ```
 
 Then you can use the following instruction to training and testing the linear classifier.  
@@ -98,11 +100,13 @@ Epoch: 005990  Loss: 0.014052  Accuracy: 0.999000
 The first, you need to config the training parameters through **XOR_classifier_parameters.json** file.   
 
 ```bash=
-[
-    {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
-    {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
-    {"input_dim": 10, "output_dim": 1, "activation": "sigmoid"}
-]
+237     data_number = 22
+238
+239     TwoLayerNet = [
+240          {"input_dim": 2, "output_dim": 20, "activation": "sigmoid"},
+241          {"input_dim": 20, "output_dim": 10, "activation": "sigmoid"},
+242          {"input_dim": 10, "output_dim": 1, "activation": "sigmoid"},
+243      ]
 ```
 
 Then you can use the following instruction to training and testing the XOR classifier.  
