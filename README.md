@@ -74,7 +74,7 @@ Then you can use the following instruction to training and testing the linear cl
 $ python linear_training_testing.py
 ```
 
-You will get the following linear classifier result.  
+You will get the following linear classifier training and testing result.  
 
 ```bash=
 Epoch: 005910  Loss: 0.014239  Accuracy: 0.999000
@@ -115,7 +115,7 @@ Then you can use the following instruction to training and testing the XOR class
 $ python XOR_training_testing.py
 ```
 
-You will get the following XOR classifier result.  
+You will get the following XOR classifier training and testing result.  
 
 ```bash=
 Epoch: 005880  Loss: 0.005006  Accuracy: 1.000000
