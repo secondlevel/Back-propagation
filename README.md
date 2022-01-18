@@ -43,7 +43,7 @@ input, label = generator_linear(1000)
 ```
 
 - generator_linear function
-  - input: coordinate data number
+  - input: coordinate (x,y) 
   - output: data coordinate, data label(blue point and red point)
 
 ```python=
@@ -51,7 +51,7 @@ input, label = generator_XOR_easy(11)
 ```
 
 - generator_XOR_easy function
-  - input: coordinate data number
+  - input: coordinate (x,y) 
   - output: data coordinate, data label(blue point and red point)
 
 ## Training and Testing the Linear classifier Result.
