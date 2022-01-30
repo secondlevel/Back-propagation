@@ -58,6 +58,8 @@ input, label = generator_XOR_easy(11)
 
 ## Training and Testing the Linear classifier Result.
 
+**Detailed experiment result link: https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Report.pdf**  
+
 The first, you need to config the training parameters through **linear_training_testing.py** file as following.
 
 ```bash=
@@ -88,8 +90,7 @@ Epoch: 005960  Loss: 0.014122  Accuracy: 0.999000
 Epoch: 005970  Loss: 0.014099  Accuracy: 0.999000
 Epoch: 005980  Loss: 0.014075  Accuracy: 0.999000
 Epoch: 005990  Loss: 0.014052  Accuracy: 0.999000
-```
-**(Detailed experiment result link: https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Report.pdf)**  
+``` 
 
 <p float="center">
   <img src="Experiment Result/linear_classifier_training_curve.PNG" width="460" title="training curve" hspace="0" />
@@ -98,6 +99,8 @@ Epoch: 005990  Loss: 0.014052  Accuracy: 0.999000
 
 
 ## Training and Testing the XOR classifier Result.
+
+**Detailed experiment result link: https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Report.pdf**  
 
 The first, you need to config the training parameters through **XOR_training_testing.py** file.   
 
@@ -132,8 +135,7 @@ Epoch: 005960  Loss: 0.004885  Accuracy: 1.000000
 Epoch: 005970  Loss: 0.004870  Accuracy: 1.000000
 Epoch: 005980  Loss: 0.004855  Accuracy: 1.000000
 Epoch: 005990  Loss: 0.004841  Accuracy: 1.000000
-```
-**(Detailed experiment result link: https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Report.pdf)**  
+``` 
 
 <p float="center">
   <img src="Experiment Result/XOR_classifier_training_curve.PNG" width="460" title="training curve" hspace="0" />
