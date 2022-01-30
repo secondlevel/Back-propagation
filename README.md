@@ -57,19 +57,7 @@ input, label = generator_XOR_easy(11)
 
 ## Performance Metrics
 
-In this project, **Mean Squared Error** is the loss function, and **Accuracy** is the classification metrics. 
-
-### Mean Squared Error(MSE)
-
-<p float="center">
-  <img src="https://user-images.githubusercontent.com/44439517/151695030-61f1f71e-6fb6-498d-bee4-ef85a0b5d959.gif" title="Mean Squared Error(MSE)" width="200" />
-</p>  
-
-- **y_j:** ground-truth value
-- **y_hat:** predicted value from the regression model
-- **N:** number of datums
-
----
+In this project, **Accuracy** is the classification metrics, and **Mean Squared Error** is the loss function. 
 
 ### Accuracy
 
@@ -81,6 +69,18 @@ In this project, **Mean Squared Error** is the loss function, and **Accuracy** i
 - **True Negative(TN)** signifies how many negative class samples your model predicted correctly.
 - **False Positive(FP)** signifies how many negative class samples your model predicted incorrectly. This factor represents Type-I error in statistical nomenclature. This error positioning in the confusion matrix depends on the choice of the null hypothesis.
 - **False Negative(FN)** signifies how many positive class samples your model predicted incorrectly. This factor represents Type-II error in statistical nomenclature. This error positioning in the confusion matrix also depends on the choice of the null hypothesis. 
+
+---
+
+### Mean Squared Error(MSE)
+
+<p float="center">
+  <img src="https://user-images.githubusercontent.com/44439517/151695030-61f1f71e-6fb6-498d-bee4-ef85a0b5d959.gif" title="Mean Squared Error(MSE)" width="200" />
+</p>  
+
+- **y_j:** ground-truth value
+- **y_hat:** predicted value from the regression model
+- **N:** number of datums
 
 ## Training and Testing the Linear classifier Result.
 
