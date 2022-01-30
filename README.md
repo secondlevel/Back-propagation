@@ -55,6 +55,32 @@ input, label = generator_XOR_easy(11)
   - input: XOR classifier coordinate (x,y) 
   - output: data coordinate, data label(blue point and red point) 
 
+## Performance Metrics
+
+In this project, **Mean Squared Error** is the loss function, and **Accuracy** is the classification metrics. 
+
+### Mean Squared Error(MSE)
+
+<p float="center">
+  <img src="https://user-images.githubusercontent.com/44439517/151695030-61f1f71e-6fb6-498d-bee4-ef85a0b5d959.gif" title="Mean Squared Error(MSE)" width="200" />
+</p>  
+
+- **y_j:** ground-truth value
+- **y_hat:** predicted value from the regression model
+- **N:** number of datums
+
+---
+
+### Accuracy
+
+<p float="center">
+  <img src="https://user-images.githubusercontent.com/44439517/151693558-d2ea220b-607b-41c3-9d03-e01d0682aaed.gif" title="Accuracy" width="300" />
+</p>    
+
+- **True Positive(TP)** signifies how many positive class samples your model predicted correctly.
+- **True Negative(TN)** signifies how many negative class samples your model predicted correctly.
+- **False Positive(FP)** signifies how many negative class samples your model predicted incorrectly. This factor represents Type-I error in statistical nomenclature. This error positioning in the confusion matrix depends on the choice of the null hypothesis.
+- **False Negative(FN)** signifies how many positive class samples your model predicted incorrectly. This factor represents Type-II error in statistical nomenclature. This error positioning in the confusion matrix also depends on the choice of the null hypothesis. 
 
 ## Training and Testing the Linear classifier Result.
 
@@ -141,34 +167,6 @@ Epoch: 005990  Loss: 0.004841  Accuracy: 1.000000
   <img src="Experiment Result/XOR_classifier_training_curve.PNG" width="460" title="training curve" hspace="0" />
   <img src="Experiment Result/XOR_classifier_testing_result.PNG" width="460" title="testing result" hspace="20" />
 </p>
-
-## Performance Metrics
-
-In this project, **Mean Squared Error** is the loss function, and **Accuracy** is the classification metrics. 
-
-### Mean Squared Error(MSE)
-
-<p float="center">
-  <img src="https://user-images.githubusercontent.com/44439517/151695030-61f1f71e-6fb6-498d-bee4-ef85a0b5d959.gif" title="Mean Squared Error(MSE)" width="200" />
-</p>  
-
-- **y_j:** ground-truth value
-- **y_hat:** predicted value from the regression model
-- **N:** number of datums
-
----
-
-### Accuracy
-
-<p float="center">
-  <img src="https://user-images.githubusercontent.com/44439517/151693558-d2ea220b-607b-41c3-9d03-e01d0682aaed.gif" title="Accuracy" width="300" />
-</p>    
-
-- **True Positive(TP)** signifies how many positive class samples your model predicted correctly.
-- **True Negative(TN)** signifies how many negative class samples your model predicted correctly.
-- **False Positive(FP)** signifies how many negative class samples your model predicted incorrectly. This factor represents Type-I error in statistical nomenclature. This error positioning in the confusion matrix depends on the choice of the null hypothesis.
-- **False Negative(FN)** signifies how many positive class samples your model predicted incorrectly. This factor represents Type-II error in statistical nomenclature. This error positioning in the confusion matrix also depends on the choice of the null hypothesis. 
-
 
 ##  Reference
 - https://zhuanlan.zhihu.com/p/89391305  
