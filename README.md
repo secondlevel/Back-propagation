@@ -144,7 +144,7 @@ Epoch: 005990  Loss: 0.004841  Accuracy: 1.000000
 
 ## Performance Metrics
 
-In this project, **Mean Squared Error** is only used in the training phase, and **Accuracy** is used in the training phase and testing phase. 
+In this project, **Mean Squared Error** is the loss function, and **Accuracy** is the classification metrics. 
 
 ### Mean Squared Error(MSE)
 
