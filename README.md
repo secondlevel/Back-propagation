@@ -53,24 +53,7 @@ input, label = generator_XOR_easy(11)
 
 - generator_XOR_easy function
   - input: XOR classifier coordinate (x,y) 
-  - output: data coordinate, data label(blue point and red point)
-
-## Classification metrics
-
-In this project, only **Accuracy** is used as the classification metrics.   
-
-<p float="center">
-  <img src="https://user-images.githubusercontent.com/44439517/151693558-d2ea220b-607b-41c3-9d03-e01d0682aaed.gif" title="Accuracy" />
-</p>  
-
-- **True Positive(TP)**   
-  signifies how many positive class samples your model predicted correctly.
-- **True Negative(TN)**  
-  signifies how many negative class samples your model predicted correctly.
-- **False Positive(FP)**  
-  signifies how many negative class samples your model predicted incorrectly. This factor represents Type-I error in statistical nomenclature. This error positioning in the confusion matrix depends on the choice of the null hypothesis.
-- **False Negative(FN)**  
-  signifies how many positive class samples your model predicted incorrectly. This factor represents Type-II error in statistical nomenclature. This error positioning in the confusion matrix also depends on the choice of the null hypothesis.  
+  - output: data coordinate, data label(blue point and red point) 
 
 
 ## Training and Testing the Linear classifier Result.
@@ -156,6 +139,23 @@ Epoch: 005990  Loss: 0.004841  Accuracy: 1.000000
   <img src="Experiment Result/XOR_classifier_training_curve.PNG" width="460" title="training curve" hspace="0" />
   <img src="Experiment Result/XOR_classifier_testing_result.PNG" width="460" title="testing result" hspace="20" />
 </p>
+
+## Classification metrics
+
+In this project, only **Accuracy** is used as the classification metrics.   
+
+<p float="center">
+  <img src="https://user-images.githubusercontent.com/44439517/151693558-d2ea220b-607b-41c3-9d03-e01d0682aaed.gif" title="Accuracy" />
+</p>  
+
+- **True Positive(TP)**   
+  signifies how many positive class samples your model predicted correctly.
+- **True Negative(TN)**  
+  signifies how many negative class samples your model predicted correctly.
+- **False Positive(FP)**  
+  signifies how many negative class samples your model predicted incorrectly. This factor represents Type-I error in statistical nomenclature. This error positioning in the confusion matrix depends on the choice of the null hypothesis.
+- **False Negative(FN)**  
+  signifies how many positive class samples your model predicted incorrectly. This factor represents Type-II error in statistical nomenclature. This error positioning in the confusion matrix also depends on the choice of the null hypothesis. 
 
 ##  Reference
 - https://zhuanlan.zhihu.com/p/89391305  
