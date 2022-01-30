@@ -142,13 +142,13 @@ Epoch: 005990  Loss: 0.004841  Accuracy: 1.000000
 
 ## Performance Metrics
 
+In this project, **Mean Squared Error** is only used in the training phase, and **Accuracy** is used in the training phase and testing phase. 
+
 ### Mean Squared Error(MSE)
 
 <p float="center">
   <img src="https://user-images.githubusercontent.com/44439517/151695030-61f1f71e-6fb6-498d-bee4-ef85a0b5d959.gif" title="Mean Squared Error(MSE)" width="200" />
 </p>  
-
-In this project, these metrics were only used in the training phase and the following are the parameters of the formula. 
 
 - **y_j:** ground-truth value
 - **y_hat:** predicted value from the regression model
@@ -160,9 +160,7 @@ In this project, these metrics were only used in the training phase and the foll
 
 <p float="center">
   <img src="https://user-images.githubusercontent.com/44439517/151693558-d2ea220b-607b-41c3-9d03-e01d0682aaed.gif" title="Accuracy" width="300" />
-</p>  
-
-In this project, this metrics was only used in the training phase and the following is the parameters of the formula.     
+</p>    
 
 - **True Positive(TP)** signifies how many positive class samples your model predicted correctly.
 - **True Negative(TN)** signifies how many negative class samples your model predicted correctly.
