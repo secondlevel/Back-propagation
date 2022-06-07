@@ -1,4 +1,4 @@
-# Back-propagation (Summer Course homework 1)
+# Back-propagation (Deep Learning and Practice homework 1)
 It's only using **Numpy** packages to build two-layer neural network.  
 
 You can get some detailed introduction and experimental results in the link below.  
