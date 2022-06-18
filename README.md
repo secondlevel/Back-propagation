@@ -17,9 +17,15 @@ GPU: NVIDIA GeForce GTX TITAN X
 
 ## Requirement
 
-In this work, I use Anaconda to manage my environment.
+In this work, you can use the following two option to build the environment.
 
-```bash=
+### First option
+```bash
+$ conda env create -f environment.yml
+```
+
+### Second option
+```bash
 $ conda create --name Summer python=3.8 -y
 $ conda activate Summer
 $ conda install numpy
