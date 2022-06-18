@@ -45,7 +45,7 @@ In this project, the training data and testing data can be generate by **generat
 
 This file contains two function.
 
-- #### generator_linear function
+### generator_linear function
 
   - input: linear classifier coordinate (x,y) 
   - output: data coordinate, data label(blue point and red point)
@@ -54,7 +54,7 @@ This file contains two function.
   input, label = generator_linear(1000)
   ```
 
-- #### generator_XOR_easy function
+### generator_XOR_easy function
   - input: XOR classifier coordinate (x,y) 
   - output: data coordinate, data label(blue point and red point) 
   - commend:
