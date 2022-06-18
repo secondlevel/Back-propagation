@@ -84,7 +84,7 @@ In this project, **Accuracy** is the classification metrics, and **Mean Squared 
 
 ## Training and Testing the Linear classifier Result.
 
-**Detailed experiment result [link](https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Report.pdf)**  
+**You can see the detailed experiment result in [link](https://github.com/secondlevel/Back-propagation/blob/main/Experiment%20Report.pdf).**  
 
 The first, you need to config the training parameters through **linear_training_testing.py** file as following.
 
