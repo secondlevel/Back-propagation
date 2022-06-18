@@ -20,8 +20,8 @@ GPU: NVIDIA GeForce GTX TITAN X
 In this work, I use Anaconda to manage my environment.
 
 ```bash=
-$ conda create --name backwardenv python=3.8 -y
-$ conda activate backwardenv
+$ conda create --name Summer python=3.8 -y
+$ conda activate Summer
 $ conda install numpy
 $ conda install matplotlib -y 
 $ conda install pandas -y
