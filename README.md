@@ -19,7 +19,7 @@ GPU: NVIDIA GeForce GTX TITAN X
 
 In this work, you can use the following two option to build the environment.
 
-### First option
+### First option (recommend)
 ```bash
 $ conda env create -f environment.yml
 ```
