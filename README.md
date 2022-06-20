@@ -49,7 +49,7 @@ This file contains two function.
 
   - input: linear classifier coordinate (x,y) 
   - output: data coordinate, data label(blue point and red point)
-  - commend: 
+  - command: 
   ```python=
   input, label = generator_linear(1000)
   ```
@@ -57,7 +57,7 @@ This file contains two function.
 ### generator_XOR_easy function
   - input: XOR classifier coordinate (x,y) 
   - output: data coordinate, data label(blue point and red point) 
-  - commend:
+  - command:
   ```python=
   input, label = generator_XOR_easy(11)
   ```
